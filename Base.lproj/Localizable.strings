@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  OrarioAnfe
+
+  Created by Giuseppe Davi on 17/12/14.
+  Copyright (c) 2014 Giuseppe Davì. All rights reserved.
+*/
+
+"SETTING_CORSO" = "Se sei un allievo seleziona il tuo corso";
+"SETTING_FORMATORE" = "Se sei un formatore seleziona il tuo nominativo";
+"CONNECTION_ERROR" = "Errore di rete";
+"CONNECTION_ERROR_ORARIO" = "Non è stato possibile aggiornare l'orario.";
+"CONNECTION_ERROR_CORSI" = "Non è stato possibile leggere l'elenco dei corsi.";
+"CONNECTION_ERROR_FORMATORI" = "Non è stato possibile leggere l'elenco dei formatori.";

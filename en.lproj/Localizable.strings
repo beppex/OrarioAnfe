@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  OrarioAnfe
+
+  Created by Giuseppe Davi on 17/12/14.
+  Copyright (c) 2014 Giuseppe Davì. All rights reserved.
+*/
+
+"SETTING_CORSO" = "Se sei un allievo seleziona il tuo corso";
+"SETTING_CORSO" = "Se sei un allievo seleziona il tuo corso";
+
+"SETTING_FORMATORE" = "Se sei un formatore seleziona il tuo nominativo";

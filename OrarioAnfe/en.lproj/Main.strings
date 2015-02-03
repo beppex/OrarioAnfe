@@ -1,0 +1,30 @@
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "0UE-TK-gub"; */
+"0UE-TK-gub.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Docente"; ObjectID = "7YN-fx-RVr"; */
+"7YN-fx-RVr.text" = "Docente";
+
+/* Class = "IBUIButton"; normalTitle = "Impostazioni"; ObjectID = "DwO-La-5dc"; */
+"DwO-La-5dc.normalTitle" = "Impostazioni";
+
+/* Class = "IBUINavigationItem"; title = "Impostazioni"; ObjectID = "Lad-co-W24"; */
+"Lad-co-W24.title" = "Impostazioni";
+
+/* Class = "IBUILabel"; text = "Materia"; ObjectID = "Peg-2B-YGW"; */
+"Peg-2B-YGW.text" = "Materia";
+
+/* Class = "IBUIBarButtonItem"; title = "Orario"; ObjectID = "Xrn-h3-oek"; */
+"Xrn-h3-oek.title" = "Orario";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "ZFW-ZL-6Os"; */
+"ZFW-ZL-6Os.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Corso"; ObjectID = "f31-26-JmD"; */
+"f31-26-JmD.text" = "Corso";
+
+/* Class = "IBUINavigationItem"; title = "Orario"; ObjectID = "oZg-IF-7tb"; */
+"oZg-IF-7tb.title" = "Orario";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "szy-ew-l57"; */
+"szy-ew-l57.text" = "Label";

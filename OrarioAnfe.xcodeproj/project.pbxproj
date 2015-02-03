@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061A1FF41A4F06160049188F /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061A1FF31A4F06160049188F /* TransitionManager.swift */; };
+		06AD74961A5815C6006AF6CE /* Lezione.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD74951A5815C6006AF6CE /* Lezione.swift */; };
+		532F9B501A41D648009D0D74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 532F9B521A41D648009D0D74 /* Localizable.strings */; };
+		534B93851A3F41F800B2EBE9 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B93841A3F41F700B2EBE9 /* SettingController.swift */; };
+		534B93891A408F6200B2EBE9 /* CorsiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B93881A408F6200B2EBE9 /* CorsiController.swift */; };
+		534B938D1A40BBA500B2EBE9 /* FormatoriController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534B938C1A40BBA500B2EBE9 /* FormatoriController.swift */; };
+		5355933A1A4755E500FEB65B /* GiornoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535593391A4755E500FEB65B /* GiornoViewController.swift */; };
+		5397E28A1A3772A70008C247 /* TableCellAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5397E2891A3772A70008C247 /* TableCellAdapter.swift */; };
+		53A0DAA71A5BCA0100DBFAAA /* SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A0DAA61A5BCA0100DBFAAA /* SwiftData.swift */; };
+		53A0DAB01A5D341500DBFAAA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A0DAAF1A5D341500DBFAAA /* libsqlite3.dylib */; };
+		53B0DDFF1A4451E700798B78 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 53B0DDFE1A4451E700798B78 /* settings.png */; };
+		53D525711A36FDC40008DE3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D525701A36FDC40008DE3A /* AppDelegate.swift */; };
+		53D525731A36FDC40008DE3A /* OrarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D525721A36FDC40008DE3A /* OrarioViewController.swift */; };
+		53D525761A36FDC40008DE3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D525741A36FDC40008DE3A /* Main.storyboard */; };
+		53D525781A36FDC40008DE3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D525771A36FDC40008DE3A /* Images.xcassets */; };
+		53D5257B1A36FDC40008DE3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D525791A36FDC40008DE3A /* LaunchScreen.xib */; };
+		53D525871A36FDC40008DE3A /* OrarioAnfeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D525861A36FDC40008DE3A /* OrarioAnfeTests.swift */; };
+		53D525911A3705760008DE3A /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D525901A3705760008DE3A /* Application.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53D525811A36FDC40008DE3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D525631A36FDC40008DE3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D5256A1A36FDC40008DE3A;
+			remoteInfo = OrarioAnfe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0681CB6D1A5085CB008197EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		061A1FF31A4F06160049188F /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		06AD74951A5815C6006AF6CE /* Lezione.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lezione.swift; sourceTree = "<group>"; };
+		530FDDC71A5E9A9300C0DF0D /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		532F9B511A41D648009D0D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		534B93841A3F41F700B2EBE9 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		534B93881A408F6200B2EBE9 /* CorsiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorsiController.swift; sourceTree = "<group>"; };
+		534B938C1A40BBA500B2EBE9 /* FormatoriController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatoriController.swift; sourceTree = "<group>"; };
+		535593391A4755E500FEB65B /* GiornoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiornoViewController.swift; sourceTree = "<group>"; };
+		5397E2891A3772A70008C247 /* TableCellAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellAdapter.swift; sourceTree = "<group>"; };
+		53A0DAA61A5BCA0100DBFAAA /* SwiftData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftData.swift; sourceTree = "<group>"; };
+		53A0DAAF1A5D341500DBFAAA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		53B0DDFE1A4451E700798B78 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		53D5256B1A36FDC40008DE3A /* OrarioAnfe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrarioAnfe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D5256F1A36FDC40008DE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D525701A36FDC40008DE3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53D525721A36FDC40008DE3A /* OrarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarioViewController.swift; sourceTree = "<group>"; };
+		53D525751A36FDC40008DE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53D525771A36FDC40008DE3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53D5257A1A36FDC40008DE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		53D525801A36FDC40008DE3A /* OrarioAnfeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrarioAnfeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D525851A36FDC40008DE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D525861A36FDC40008DE3A /* OrarioAnfeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarioAnfeTests.swift; sourceTree = "<group>"; };
+		53D525901A3705760008DE3A /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D525681A36FDC40008DE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A0DAB01A5D341500DBFAAA /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D5257D1A36FDC40008DE3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53914EA91A3B15760079A7F2 /* immagini */ = {
+			isa = PBXGroup;
+			children = (
+				53B0DDFE1A4451E700798B78 /* settings.png */,
+			);
+			name = immagini;
+			sourceTree = "<group>";
+		};
+		53D525621A36FDC40008DE3A = {
+			isa = PBXGroup;
+			children = (
+				530FDDC71A5E9A9300C0DF0D /* Bridging-Header.h */,
+				53A0DAAF1A5D341500DBFAAA /* libsqlite3.dylib */,
+				532F9B521A41D648009D0D74 /* Localizable.strings */,
+				53D5256D1A36FDC40008DE3A /* OrarioAnfe */,
+				53D525831A36FDC40008DE3A /* OrarioAnfeTests */,
+				53D5256C1A36FDC40008DE3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53D5256C1A36FDC40008DE3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D5256B1A36FDC40008DE3A /* OrarioAnfe.app */,
+				53D525801A36FDC40008DE3A /* OrarioAnfeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D5256D1A36FDC40008DE3A /* OrarioAnfe */ = {
+			isa = PBXGroup;
+			children = (
+				53A0DAA61A5BCA0100DBFAAA /* SwiftData.swift */,
+				53914EA91A3B15760079A7F2 /* immagini */,
+				53D525701A36FDC40008DE3A /* AppDelegate.swift */,
+				53D525901A3705760008DE3A /* Application.swift */,
+				53D525721A36FDC40008DE3A /* OrarioViewController.swift */,
+				53D525741A36FDC40008DE3A /* Main.storyboard */,
+				061A1FF31A4F06160049188F /* TransitionManager.swift */,
+				53D525771A36FDC40008DE3A /* Images.xcassets */,
+				53D525791A36FDC40008DE3A /* LaunchScreen.xib */,
+				53D5256E1A36FDC40008DE3A /* Supporting Files */,
+				5397E2891A3772A70008C247 /* TableCellAdapter.swift */,
+				534B93841A3F41F700B2EBE9 /* SettingController.swift */,
+				534B93881A408F6200B2EBE9 /* CorsiController.swift */,
+				534B938C1A40BBA500B2EBE9 /* FormatoriController.swift */,
+				535593391A4755E500FEB65B /* GiornoViewController.swift */,
+				06AD74951A5815C6006AF6CE /* Lezione.swift */,
+			);
+			path = OrarioAnfe;
+			sourceTree = "<group>";
+		};
+		53D5256E1A36FDC40008DE3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53D5256F1A36FDC40008DE3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53D525831A36FDC40008DE3A /* OrarioAnfeTests */ = {
+			isa = PBXGroup;
+			children = (
+				53D525861A36FDC40008DE3A /* OrarioAnfeTests.swift */,
+				53D525841A36FDC40008DE3A /* Supporting Files */,
+			);
+			path = OrarioAnfeTests;
+			sourceTree = "<group>";
+		};
+		53D525841A36FDC40008DE3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53D525851A36FDC40008DE3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D5256A1A36FDC40008DE3A /* OrarioAnfe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D5258A1A36FDC40008DE3A /* Build configuration list for PBXNativeTarget "OrarioAnfe" */;
+			buildPhases = (
+				53D525671A36FDC40008DE3A /* Sources */,
+				53D525681A36FDC40008DE3A /* Frameworks */,
+				53D525691A36FDC40008DE3A /* Resources */,
+				0681CB6D1A5085CB008197EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrarioAnfe;
+			productName = OrarioAnfe;
+			productReference = 53D5256B1A36FDC40008DE3A /* OrarioAnfe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53D5257F1A36FDC40008DE3A /* OrarioAnfeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D5258D1A36FDC40008DE3A /* Build configuration list for PBXNativeTarget "OrarioAnfeTests" */;
+			buildPhases = (
+				53D5257C1A36FDC40008DE3A /* Sources */,
+				53D5257D1A36FDC40008DE3A /* Frameworks */,
+				53D5257E1A36FDC40008DE3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D525821A36FDC40008DE3A /* PBXTargetDependency */,
+			);
+			name = OrarioAnfeTests;
+			productName = OrarioAnfeTests;
+			productReference = 53D525801A36FDC40008DE3A /* OrarioAnfeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D525631A36FDC40008DE3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Giuseppe Davì";
+				TargetAttributes = {
+					53D5256A1A36FDC40008DE3A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					53D5257F1A36FDC40008DE3A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 53D5256A1A36FDC40008DE3A;
+					};
+				};
+			};
+			buildConfigurationList = 53D525661A36FDC40008DE3A /* Build configuration list for PBXProject "OrarioAnfe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53D525621A36FDC40008DE3A;
+			productRefGroup = 53D5256C1A36FDC40008DE3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D5256A1A36FDC40008DE3A /* OrarioAnfe */,
+				53D5257F1A36FDC40008DE3A /* OrarioAnfeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D525691A36FDC40008DE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532F9B501A41D648009D0D74 /* Localizable.strings in Resources */,
+				53B0DDFF1A4451E700798B78 /* settings.png in Resources */,
+				53D525761A36FDC40008DE3A /* Main.storyboard in Resources */,
+				53D5257B1A36FDC40008DE3A /* LaunchScreen.xib in Resources */,
+				53D525781A36FDC40008DE3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D5257E1A36FDC40008DE3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D525671A36FDC40008DE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534B93851A3F41F800B2EBE9 /* SettingController.swift in Sources */,
+				53D525731A36FDC40008DE3A /* OrarioViewController.swift in Sources */,
+				5355933A1A4755E500FEB65B /* GiornoViewController.swift in Sources */,
+				53D525911A3705760008DE3A /* Application.swift in Sources */,
+				5397E28A1A3772A70008C247 /* TableCellAdapter.swift in Sources */,
+				534B938D1A40BBA500B2EBE9 /* FormatoriController.swift in Sources */,
+				06AD74961A5815C6006AF6CE /* Lezione.swift in Sources */,
+				53A0DAA71A5BCA0100DBFAAA /* SwiftData.swift in Sources */,
+				061A1FF41A4F06160049188F /* TransitionManager.swift in Sources */,
+				534B93891A408F6200B2EBE9 /* CorsiController.swift in Sources */,
+				53D525711A36FDC40008DE3A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D5257C1A36FDC40008DE3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D525871A36FDC40008DE3A /* OrarioAnfeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D525821A36FDC40008DE3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D5256A1A36FDC40008DE3A /* OrarioAnfe */;
+			targetProxy = 53D525811A36FDC40008DE3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		532F9B521A41D648009D0D74 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				532F9B511A41D648009D0D74 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		53D525741A36FDC40008DE3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D525751A36FDC40008DE3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53D525791A36FDC40008DE3A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53D5257A1A36FDC40008DE3A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53D525881A36FDC40008DE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53D525891A36FDC40008DE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53D5258B1A36FDC40008DE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrarioAnfe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		53D5258C1A36FDC40008DE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OrarioAnfe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "//:configuration = Debug\nSWIFT_OBJC_BRIDGING_HEADER[arch=*] = Bridging-Header.h\n\n//:completeSettings = none\n//:configuration = Debug\nSWIFT_OBJC_BRIDGING_HEADER[arch=*] = Bridging-Header.h\n\n//:completeSettings = none\nBridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		53D5258E1A36FDC40008DE3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrarioAnfeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrarioAnfe.app/OrarioAnfe";
+			};
+			name = Debug;
+		};
+		53D5258F1A36FDC40008DE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrarioAnfeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrarioAnfe.app/OrarioAnfe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D525661A36FDC40008DE3A /* Build configuration list for PBXProject "OrarioAnfe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D525881A36FDC40008DE3A /* Debug */,
+				53D525891A36FDC40008DE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D5258A1A36FDC40008DE3A /* Build configuration list for PBXNativeTarget "OrarioAnfe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D5258B1A36FDC40008DE3A /* Debug */,
+				53D5258C1A36FDC40008DE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D5258D1A36FDC40008DE3A /* Build configuration list for PBXNativeTarget "OrarioAnfeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D5258E1A36FDC40008DE3A /* Debug */,
+				53D5258F1A36FDC40008DE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53D525631A36FDC40008DE3A /* Project object */;
+}
