@@ -13,13 +13,13 @@ class GiornoViewController: UIViewController, UITableViewDelegate, UITableViewDa
 {
     @IBOutlet weak var currentDay: UINavigationItem!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet var oldTableView: UITableView!
     @IBOutlet weak var empty: UIView!
     
     var lezioni : Array<Lezione>? = nil
     var giorno : NSDate!
     
     let app : Application! = Application.sharedInstance
-    
     
     override func viewDidLoad()
     {
@@ -42,7 +42,8 @@ class GiornoViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        var cell : GiornoCell = self.tableView.dequeueReusableCellWithIdentifier("giornoCell") as GiornoCell
+        //var cell : GiornoCell = self.tableView.dequeueReusableCellWithIdentifier("giornoCell") as GiornoCell
+        var cell : GiornoCell = tableView.dequeueReusableCellWithIdentifier("giornoCell") as GiornoCell
         
         cell.layoutMargins = UIEdgeInsetsZero
         
@@ -83,18 +84,46 @@ class GiornoViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     private func updateView()
     {
+        animationView()
+        
+        self.updateTitle()
+        lezioni = app.getLezione(giorno)
+        
         updateTitle()
         lezioni = app.getLezione(giorno)
         
         if(lezioni?.count != 0) {
-            self.tableView.hidden = false
+            tableView.hidden = false
             empty.hidden = true
-            self.tableView.reloadData()
+            tableView.reloadData()
         }
         else {
             empty.hidden = false
-            self.tableView.hidden = true
+            tableView.hidden = true
         }
+    }
+    
+    private func animationView()
+    {
+        let duration = 1.0
+        let delay = 0.0
+        let options = UIViewAnimationOptions.CurveEaseInOut
+        self.oldTableView.hidden = false
+        var coordinate = self.tableView.frame
+        
+        self.tableView.frame = CGRect(x: -320, y: 64, width: 320, height: 568)
+        self.oldTableView.frame = CGRect(x: 0, y: 64, width: 320, height: 568)
+        
+        UIView.animateWithDuration(duration, delay: delay, options: options,
+            animations: {
+                self.tableView.frame = CGRect(x: 0, y: 64, width: 320, height: 568)
+                self.oldTableView.frame = CGRect(x: 320, y: 64, width: 320, height: 568)
+            },
+            completion: { finished in
+                self.oldTableView.frame = CGRect(x: 0, y: 64, width: 320, height: 568)
+                self.oldTableView.hidden = true
+                self.oldTableView.reloadData()
+            })
     }
     
     private func updateTitle()
