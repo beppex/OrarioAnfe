@@ -160,6 +160,5 @@ class GiornoCell : UITableViewCell
         self.corso.text = lezione.titoloCorso + " (\(lezione.codiceCorso))"
         self.luogo.text = lezione.sedeCorso + ", " + lezione.indirizzoCorso
         self.formatore.text = lezione.nomeFormatore
-    }
-    
+    }    
 }
