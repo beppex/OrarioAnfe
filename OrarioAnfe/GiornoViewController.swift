@@ -23,7 +23,7 @@ class GiornoViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad()
     {
-        updateView()
+        updateView(3)
         /*
         lezioni = app.getLezione(giorno)
         self.tableView.layoutMargins = UIEdgeInsetsZero
@@ -63,13 +63,13 @@ class GiornoViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBAction func nextDay(sender: AnyObject?)
     {
         giorno = app.getNextDate(giorno)
-        updateView()
+        updateView(0)
     }
     
     @IBAction func previousDay(sender: AnyObject?)
     {
         giorno = app.getPreviousDate(giorno)
-        updateView()
+        updateView(1)
     }
     
     @IBAction func swipe(sender: UISwipeGestureRecognizer)
@@ -82,12 +82,17 @@ class GiornoViewController: UIViewController, UITableViewDelegate, UITableViewDa
         }
     }
     
-    private func updateView()
+    private func updateView(param : Int)
     {
-        animationView()
-        
-        self.updateTitle()
-        lezioni = app.getLezione(giorno)
+        if(param == 0) {
+            animationRightView()
+        }
+        else if(param == 1) {
+            animationLeftView()
+        }
+        else {
+            println("nessuna animazione")
+        }
         
         updateTitle()
         lezioni = app.getLezione(giorno)
@@ -103,13 +108,12 @@ class GiornoViewController: UIViewController, UITableViewDelegate, UITableViewDa
         }
     }
     
-    private func animationView()
+    private func animationRightView()
     {
         let duration = 1.0
         let delay = 0.0
         let options = UIViewAnimationOptions.CurveEaseInOut
         self.oldTableView.hidden = false
-        var coordinate = self.tableView.frame
         
         self.tableView.frame = CGRect(x: -320, y: 64, width: 320, height: 568)
         self.oldTableView.frame = CGRect(x: 0, y: 64, width: 320, height: 568)
@@ -120,10 +124,32 @@ class GiornoViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 self.oldTableView.frame = CGRect(x: 320, y: 64, width: 320, height: 568)
             },
             completion: { finished in
-                self.oldTableView.frame = CGRect(x: 0, y: 64, width: 320, height: 568)
+                self.oldTableView.frame = CGRect(x: 0, y: 0, width: 320, height: 568)
                 self.oldTableView.hidden = true
                 self.oldTableView.reloadData()
             })
+    }
+    
+    private func animationLeftView()
+    {
+        let duration = 1.0
+        let delay = 0.0
+        let options = UIViewAnimationOptions.CurveEaseInOut
+        self.oldTableView.hidden = false
+        
+        self.tableView.frame = CGRect(x: 0, y: 64, width: 320, height: 568)
+        self.oldTableView.frame = CGRect(x: 320, y: 64, width: 320, height: 568)
+        
+        UIView.animateWithDuration(duration, delay: delay, options: options,
+            animations: {
+                self.tableView.frame = CGRect(x: -320, y: 64, width: 320, height: 568)
+                self.oldTableView.frame = CGRect(x: 0, y: 64, width: 320, height: 568)
+            },
+            completion: { finished in
+                self.oldTableView.frame = CGRect(x: 320, y: 0, width: 320, height: 568)
+                self.oldTableView.hidden = true
+                self.oldTableView.reloadData()
+        })
     }
     
     private func updateTitle()
@@ -160,5 +186,5 @@ class GiornoCell : UITableViewCell
         self.corso.text = lezione.titoloCorso + " (\(lezione.codiceCorso))"
         self.luogo.text = lezione.sedeCorso + ", " + lezione.indirizzoCorso
         self.formatore.text = lezione.nomeFormatore
-    }    
+    }
 }
