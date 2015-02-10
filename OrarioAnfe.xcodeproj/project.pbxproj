@@ -221,9 +221,11 @@
 				TargetAttributes = {
 					53D5256A1A36FDC40008DE3A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = ABW38GM943;
 					};
 					53D5257F1A36FDC40008DE3A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = ABW38GM943;
 						TestTargetID = 53D5256A1A36FDC40008DE3A;
 					};
 				};
@@ -442,6 +444,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -453,6 +457,7 @@
 				INFOPLIST_FILE = OrarioAnfeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrarioAnfe.app/OrarioAnfe";
 			};
 			name = Debug;
@@ -461,6 +466,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -468,6 +475,7 @@
 				INFOPLIST_FILE = OrarioAnfeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrarioAnfe.app/OrarioAnfe";
 			};
 			name = Release;
