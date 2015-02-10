@@ -25,6 +25,8 @@
 		53D5257B1A36FDC40008DE3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D525791A36FDC40008DE3A /* LaunchScreen.xib */; };
 		53D525871A36FDC40008DE3A /* OrarioAnfeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D525861A36FDC40008DE3A /* OrarioAnfeTests.swift */; };
 		53D525911A3705760008DE3A /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D525901A3705760008DE3A /* Application.swift */; };
+		A953D1091A8A58AA003A027F /* anfe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A953D1081A8A58AA003A027F /* anfe.jpg */; };
+		A953D10D1A8A59B9003A027F /* icona.png in Resources */ = {isa = PBXBuildFile; fileRef = A953D10C1A8A59B9003A027F /* icona.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		53D525851A36FDC40008DE3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53D525861A36FDC40008DE3A /* OrarioAnfeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarioAnfeTests.swift; sourceTree = "<group>"; };
 		53D525901A3705760008DE3A /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		A953D1081A8A58AA003A027F /* anfe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anfe.jpg; sourceTree = "<group>"; };
+		A953D10C1A8A59B9003A027F /* icona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icona.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		53914EA91A3B15760079A7F2 /* immagini */ = {
 			isa = PBXGroup;
 			children = (
+				A953D1081A8A58AA003A027F /* anfe.jpg */,
+				A953D10C1A8A59B9003A027F /* icona.png */,
 				53B0DDFE1A4451E700798B78 /* settings.png */,
 			);
 			name = immagini;
@@ -255,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				532F9B501A41D648009D0D74 /* Localizable.strings in Resources */,
+				A953D1091A8A58AA003A027F /* anfe.jpg in Resources */,
 				53B0DDFF1A4451E700798B78 /* settings.png in Resources */,
 				53D525761A36FDC40008DE3A /* Main.storyboard in Resources */,
+				A953D10D1A8A59B9003A027F /* icona.png in Resources */,
 				53D5257B1A36FDC40008DE3A /* LaunchScreen.xib in Resources */,
 				53D525781A36FDC40008DE3A /* Images.xcassets in Resources */,
 			);
